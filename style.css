@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background-image:url('http://farm6.staticflickr.com/5042/5193930470_8e9fd730cd_o.jpg');
+	background-repeat:no-repeat;
+	background-size: auto;
+}
+
+header {
+	width: 1280px;
+	margin: 10px auto 0 auto;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800; 
+}
+
+h1 {
+	font-size: 60px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 20px 0 0 25px;
+	font-size: 28px;
+	color: #F00;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px #000000;
+	text-transform: uppercase;
+
+}
+
+iframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#video {
+	width:1280;
+	opacity: 1;
+	padding:20px 20px 20px 20px;
+}
+
+footer {
+	width: 1280px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer ul {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+}
+
+/**Mobile CSS**/
+
+@media only screen and (max-device-width: 480px) {
+	
+body { 
+	background-image:url('http://farm6.staticflickr.com/5042/5193930470_8e9fd730cd_o.jpg');
+	background-repeat:
+	background-size: auto;
+}
+
+header {
+	width: 400px;
+	margin: 10px auto 0 auto;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800; 
+}
+
+h1 {
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 20px 0 0 25px;
+	width: 400px;
+	font-size: 14px;
+	color: #F00;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px #000000;
+	text-transform: uppercase;
+
+}
+
+iframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:320px;
+	height: 240px;
+}
+
+#video {
+	width:400;
+	opacity: 1;
+	padding:20px 20px 20px 20px;
+}
+
+footer {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+footer ul {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+}
+}
